@@ -35,21 +35,6 @@ app.get('/quiz/data', (req,res)=>{
     });
 })
 
-//1) CREATE QUIZ
-// function createQuiz(req, res) {
-//   console.log(req.body);
-//   const data = req.body;
-//   mysqlConnection.query(
-//     `INSERT INTO questions (question,option1,option2,option3,option4,correct) VALUES ("${data.question}","${data.option1}","${data.option2}","${data.option3}","${data.option4}","${data.correct}")`,
-//     (err, rows, fields) => {
-//       if (!err) {
-//         console.log("succeed");
-//         res.send(rows);
-//       } else console.log(err, "err");
-//     }
-//   );
-// }
-// app.post("/create/quiz", createQuiz);
 
 
 
